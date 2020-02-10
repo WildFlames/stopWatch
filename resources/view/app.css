@@ -1,0 +1,33 @@
+Pane{
+	-fx-background-color: black;
+}
+
+Text{
+	-fx-fill: white;
+}
+
+#btn-start{
+	-fx-background-color: green;
+	-fx-text-fill: white;
+}
+#btn-start:focused{
+	-fx-border-color: white;
+}
+
+#btn-stop:focused{
+	-fx-border-color: white;
+}
+
+#btn-reset:focused{
+	-fx-border-color: white;
+}
+
+#btn-stop{
+	-fx-background-color: #f59d0a;
+	-fx-text-fill: white;
+}
+
+#btn-reset{
+	-fx-background-color: red;
+	-fx-text-fill: white;
+}

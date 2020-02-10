@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.stopWatchController">
+   <children>
+      <Button id="btn-stop" fx:id="btnStop" alignment="CENTER" contentDisplay="CENTER" layoutX="259.0" layoutY="286.0" mnemonicParsing="false" onAction="#stop" text="Stop" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button id="btn-start" fx:id="btnStart" alignment="CENTER" contentDisplay="CENTER" layoutX="154.0" layoutY="286.0" mnemonicParsing="false" onAction="#start" text="Start" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button id="btn-reset" fx:id="btnReset" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="286.0" mnemonicParsing="false" onAction="#reset" text="Reset" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Text id="txt" fx:id="txt" layoutX="167.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00:00:00" textAlignment="CENTER">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Text>
+   </children>
+   <stylesheets>
+    <URL value="@app.css" />
+</stylesheets>
+</Pane>
